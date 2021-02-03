@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.year-month {
+    text-align: center;
+}
+
+.calendar-week {
+    margin: 10px auto;
+    width: 785px;
+}
+
+.days-btn-wrapping {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.calendar-days ul {
+    margin: 0;
+}
+
+.calendar-days li {
+    border: 1px solid black;
+    height: 110px;
+    width: 110px;
+}
+
+i {
+    font-size: 50px;
+    color: rgba(15, 231, 247, 0.5);
+}
